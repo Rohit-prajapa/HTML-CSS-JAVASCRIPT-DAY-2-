@@ -1,0 +1,25 @@
+body{
+    background-color: lightgreen;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: yellow;
+}
+
+button{
+    margin-left: 45%;
+    width: 200px;
+    height: 30px;
+    font-size: 22px;
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+button:hover{
+    background-color: black;
+    color: lightcyan;
+    cursor: pointer;
+}
