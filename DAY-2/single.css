@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: lightgray;
+    color: darkblue;
+}
+
+.main{
+    background: black;
+    height: 300px;
+    width: 100px;
+    margin: 15px auto;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.light{
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+#red.activate{
+    background-color: red;
+}
+
+#yellow.activate{
+    background-color: yellow;
+}
+
+#green.activate{
+    background-color: green;
+}

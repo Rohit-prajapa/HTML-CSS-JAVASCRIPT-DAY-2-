@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background: darkkhaki;
+}
+
+h1{
+    background: black;
+    color: yellow;
+    border-radius: 20px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+button{
+    width: 100px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: darkmagenta;
+    color: aqua;
+    transition: 0.5s;
+}
+
+button:hover{
+    background: black;
+    color: yellow;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Async js</h1>
+    <script>
+        console.log("good Morning")
+        setTimeout(()=>{
+            console.log("good night")
+        },3000)
+
+        const x =setTimeout(()=>{
+            console.log("tea time")
+        },1000)
+
+        setInterval(()=>{
+            clearInterval(x)
+            console.log("sleep now no more Tea: ")
+        },8000)
+        console.log("good AfterNoon")
+
+    </script>
+</body>
+</html>
